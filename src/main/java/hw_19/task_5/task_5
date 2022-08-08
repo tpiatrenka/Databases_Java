@@ -1,0 +1,15 @@
+Task 5
+Вывести на экран кол-во студентов по каждому предмету
+
+
+и упорядочить по популярности предмета
+order by count desc
+
+и названию предмета
+
+
+select sbj.name, count(*) from subject_id_student_id ssid
+inner join subject sbj on sbj.id = ssid.subject_id
+group by sbj.name
+order by sbj.name desc
+

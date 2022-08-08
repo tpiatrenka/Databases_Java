@@ -1,0 +1,5 @@
+Task 4
+Вывести на экран тех студентов, которые изучают математику (Math)
+
+select * from student st, subject sbj, subject_id_student_id ssid
+where st.id = ssid.student_id and sbj.id = ssid.subject_id and sbj.name = 'Math'

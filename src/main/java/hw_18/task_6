@@ -1,0 +1,4 @@
+Task 6
+Выберите из таблицы всех студентов.
+
+SELECT * FROM public.student

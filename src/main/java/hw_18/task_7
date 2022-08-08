@@ -1,0 +1,4 @@
+Task 7
+Выберите из таблицы всех студентов, у которых id больше 2.
+
+SELECT * FROM public.student WHERE id > 2

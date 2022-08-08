@@ -1,0 +1,4 @@
+Task 3
+Создать базу данных с названием "pingwit-java"
+
+docker run --name pingwit-java -p 5432:5432 -e POSTGRES_PASSWORD=docker -d postgres
